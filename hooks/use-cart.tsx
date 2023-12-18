@@ -11,7 +11,7 @@ interface CartStore {
   removeItem: (id: string) => void;
   removeAll: () => void;
 }
-
+// 操作产品的状态
 const useCart = create(
   persist<CartStore>((set, get) => ({
   items: [],
