@@ -7,6 +7,7 @@ import Button from "@/components/ui/button";
 import { Product } from "@/types";
 // import useCart from "@/hooks/use-cart";
 
+// 商品详细语
 interface InfoProps {
   data: Product
 };
